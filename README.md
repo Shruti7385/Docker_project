@@ -1,5 +1,5 @@
 DevOps Terraform LAMP Server
-End-to-End Full Stack Application Deployment using Terraform and Docker Compose.
+End-to-End Full Stack Application Deployment using Terraform and Docker Compose
 
 I have developed this project to demonstrate a real-world DevOps scenario. In this project, the frontend and backend code is provided by developers, and as a DevOps engineer, I have provisioned the infrastructure and deployed the complete application stack.
 
@@ -11,7 +11,6 @@ The stack includes:
 React.js – Frontend
 Spring Boot – Backend
 MySQL – Database
-
 🏗️ Project Architecture
                 ┌────────────────────────────┐
                 │        User Browser         │
@@ -43,15 +42,16 @@ MySQL – Database
                 └────────────────────────────┘
 
 Infrastructure Provisioned using Terraform
-
 📁 Repository Structure
 DevOps-Terraform-LAMP-Server/
 ├── code/                   # Frontend (React) and Backend (Spring Boot) source code
 ├── docker-compose.yaml     # Multi-container setup (React, Spring Boot, MySQL)
 ├── main.tf                 # Terraform infrastructure definition
 └── README.md               # Project documentation
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Expected output:
+🚀 Getting Started 
+
+Expected output:
+
 code
 docker-compose.yaml
 main.tf
@@ -61,7 +61,6 @@ vi main.tf
 terraform init
 3️⃣ Deploy Infrastructure and Application
 terraform apply --auto-approve
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ✅ Sample Terraform Output
 Apply complete! Resources: 7 added, 0 changed, 0 destroyed.
 
@@ -81,7 +80,6 @@ Public IP address: ec2-user@<PUBLIC_IP>
 
 sshkey =
 SSH Key location: ~/.ssh/id_rsa
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🌐 Access the Application
 Frontend & Backend Application
 
@@ -92,3 +90,4 @@ mysql -uappuser -papppass appdb
 Check Running Containers
 
 docker compose ps -a
+🎯 Learning Objectives
