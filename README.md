@@ -1,5 +1,5 @@
 # DevOps Terraform LAMP Server
-End-to-End Full Stack Application Deployment using Terraform and Docker Compose
+End-to-End Full-Stack Application Deployment using Terraform and Docker Compose
 
 I have developed this project to demonstrate a real-world DevOps scenario. In this project, the frontend and backend code is provided by developers, and as a DevOps engineer, I have provisioned the infrastructure and deployed the complete application stack.
 # 🧩 Project Overview
